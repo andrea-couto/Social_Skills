@@ -1,0 +1,72 @@
+/*Docs*/
+
+.body {
+    position: relative;
+}
+
+.sub-title {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.sub-title a {
+    font-size: 16px;
+}
+
+.section.docs-heading {
+    padding: 20px 0;
+}
+
+.affix {
+    position: static;
+}
+
+@media (min-width: 992px) {
+    .affix,
+    .affix-bottom {
+        width: 213px
+    }
+    .affix {
+        position: fixed;
+        top: 20px
+    }
+    .affix-bottom {
+        position: absolute
+    }
+    .affix .bs-docs-sidenav,
+    .affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+
+@media (min-width: 1200px) {
+    .affix,
+    .affix-bottom {
+        width: 263px
+    }
+}
+
+/* SIDEBAR */
+
+@media (min-width: 768px) {
+    .docs-sidebar {
+        padding-top: 20px;
+        padding-left: 20px
+    }
+}
+
+@media (min-width: 992px) {
+    .docs-sidebar .nav ul {
+        display: none;
+        padding-bottom: 10px;
+    }
+    .docs-sidebar .nav>.active>ul {
+        display: block
+    }
+}
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Microsoft Emotion API Hackathon Princeton 2017">
+    <meta name="author" content="Andy Couto">
+    <meta name="keywords" content="Emotion API Microsoft Autism Facial expression">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+
+    <title>Social Skills | HackPrinceton 2017</title>
+
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="container">
+
+            <section id="top" class="section docs-heading">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="big-title text-center">
+                            <h1>Social Skills</h1>
+                            <p class="lead">Get to know your facial expressions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+            </section>
+
+            <div class="row">
+
+                <div class="col-md-6 text-center">
+                    <br>
+                    <center>
+                   <script src="webcamjs/webcam.js"></script>
+                    <div id="my_camera" style="width:320px; height:240px;"></div></center>
+                    <div id="results"></div><br>
+
+                    <div class="buttons">
+                        <button class="buttons" id='ok' type="button"></button> 
+                        <button class="buttons" id='nope' type="button"></button> 
+                    </div><br>
+
+                    <div class='phototake'>
+                        <button class="buttons" id="snapButton">Take Snapshot</button>
+                    </div>
+
+                    <div class='result_div'></div></center>
+
+                </div>
+                <div class="col-md-6">
+                    <section class="welcome">
+                        <div class="row">
+<!--                             <div class="col-md-12 center-align">
+ -->                                <h1 class="dark-text">Emotions</h1>
+                                        <div class="col-md-6">
+                                            <img src="img/happy.jpg" title="I feel happy when someone tells me a funny joke" >
+                                            <figcaption>Happy</figcaption>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/neutral.jpg" title="I feel neutral when I am listening" >
+                                            <figcaption>Neutral</figcaption>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/surprised.jpg" title="I feel surprised when someone jumps out in front of me" >
+                                            <figcaption>Surprised</figcaption>
+                                        </div>                          
+                                        <div class="col-md-6">
+                                            <img src="img/sad.jpg" title="I feel sad when I get hurt" >
+                                            <figcaption>Sad</figcaption>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/fear.jpg" title="I feel fear when I see spiders" >
+                                            <figcaption>Fear</figcaption>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/disgust.jpg" title="I feel disgusted when I smell a bad smell" >
+                                            <figcaption>Disgust</figcaption>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/angry.jpg" title="I feel angry when someone makes me do something I don't want to do" >
+                                            <figcaption>Angry</figcaption>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="img/contempt.jpg" title="I feel contempt when I really don't agree with someone" >
+                                            <figcaption>Contempt</figcaption>
+                                        </div>
+                            </div>
+                    </section> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- CUSTOM PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
