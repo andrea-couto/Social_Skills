@@ -8,3 +8,5 @@ The goal of this project was to provide another option for therapists who want t
 You will need a webcam to try it out and you may need to adjust security settings for your webcam.
 
 <a href="https://andrea-couto.github.io/Social_Skills/">Try it here</a>
+
+see the devpost project <a href="https://devpost.com/software/social-skills">here</a>
